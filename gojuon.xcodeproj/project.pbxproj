@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75A73492584DF0400D91251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A73482584DF0400D91251 /* AppDelegate.swift */; };
+		A75A734B2584DF0400D91251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A734A2584DF0400D91251 /* SceneDelegate.swift */; };
+		A75A734D2584DF0400D91251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A734C2584DF0400D91251 /* ContentView.swift */; };
+		A75A73502584DF0400D91251 /* gojuon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A75A734E2584DF0400D91251 /* gojuon.xcdatamodeld */; };
+		A75A73522584DF0700D91251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75A73512584DF0700D91251 /* Assets.xcassets */; };
+		A75A73552584DF0700D91251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75A73542584DF0700D91251 /* Preview Assets.xcassets */; };
+		A75A73582584DF0700D91251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75A73562584DF0700D91251 /* LaunchScreen.storyboard */; };
+		A75A73632584DF0700D91251 /* gojuonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A73622584DF0700D91251 /* gojuonTests.swift */; };
+		A75A736E2584DF0700D91251 /* gojuonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A736D2584DF0700D91251 /* gojuonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A75A735F2584DF0700D91251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75A733D2584DF0400D91251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75A73442584DF0400D91251;
+			remoteInfo = gojuon;
+		};
+		A75A736A2584DF0700D91251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75A733D2584DF0400D91251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75A73442584DF0400D91251;
+			remoteInfo = gojuon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A75A73452584DF0400D91251 /* gojuon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gojuon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A73482584DF0400D91251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A75A734A2584DF0400D91251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A75A734C2584DF0400D91251 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A75A734F2584DF0400D91251 /* gojuon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gojuon.xcdatamodel; sourceTree = "<group>"; };
+		A75A73512584DF0700D91251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A75A73542584DF0700D91251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A75A73572584DF0700D91251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A75A73592584DF0700D91251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75A735E2584DF0700D91251 /* gojuonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gojuonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A73622584DF0700D91251 /* gojuonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gojuonTests.swift; sourceTree = "<group>"; };
+		A75A73642584DF0700D91251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75A73692584DF0700D91251 /* gojuonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gojuonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75A736D2584DF0700D91251 /* gojuonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gojuonUITests.swift; sourceTree = "<group>"; };
+		A75A736F2584DF0700D91251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75A73422584DF0400D91251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A735B2584DF0700D91251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A73662584DF0700D91251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A75A733C2584DF0400D91251 = {
+			isa = PBXGroup;
+			children = (
+				A75A73472584DF0400D91251 /* gojuon */,
+				A75A73612584DF0700D91251 /* gojuonTests */,
+				A75A736C2584DF0700D91251 /* gojuonUITests */,
+				A75A73462584DF0400D91251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A75A73462584DF0400D91251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75A73452584DF0400D91251 /* gojuon.app */,
+				A75A735E2584DF0700D91251 /* gojuonTests.xctest */,
+				A75A73692584DF0700D91251 /* gojuonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75A73472584DF0400D91251 /* gojuon */ = {
+			isa = PBXGroup;
+			children = (
+				A75A73482584DF0400D91251 /* AppDelegate.swift */,
+				A75A734A2584DF0400D91251 /* SceneDelegate.swift */,
+				A75A734C2584DF0400D91251 /* ContentView.swift */,
+				A75A73512584DF0700D91251 /* Assets.xcassets */,
+				A75A73562584DF0700D91251 /* LaunchScreen.storyboard */,
+				A75A73592584DF0700D91251 /* Info.plist */,
+				A75A734E2584DF0400D91251 /* gojuon.xcdatamodeld */,
+				A75A73532584DF0700D91251 /* Preview Content */,
+			);
+			path = gojuon;
+			sourceTree = "<group>";
+		};
+		A75A73532584DF0700D91251 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A75A73542584DF0700D91251 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A75A73612584DF0700D91251 /* gojuonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A75A73622584DF0700D91251 /* gojuonTests.swift */,
+				A75A73642584DF0700D91251 /* Info.plist */,
+			);
+			path = gojuonTests;
+			sourceTree = "<group>";
+		};
+		A75A736C2584DF0700D91251 /* gojuonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A75A736D2584DF0700D91251 /* gojuonUITests.swift */,
+				A75A736F2584DF0700D91251 /* Info.plist */,
+			);
+			path = gojuonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75A73442584DF0400D91251 /* gojuon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75A73722584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuon" */;
+			buildPhases = (
+				A75A73412584DF0400D91251 /* Sources */,
+				A75A73422584DF0400D91251 /* Frameworks */,
+				A75A73432584DF0400D91251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gojuon;
+			productName = gojuon;
+			productReference = A75A73452584DF0400D91251 /* gojuon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A75A735D2584DF0700D91251 /* gojuonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75A73752584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuonTests" */;
+			buildPhases = (
+				A75A735A2584DF0700D91251 /* Sources */,
+				A75A735B2584DF0700D91251 /* Frameworks */,
+				A75A735C2584DF0700D91251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75A73602584DF0700D91251 /* PBXTargetDependency */,
+			);
+			name = gojuonTests;
+			productName = gojuonTests;
+			productReference = A75A735E2584DF0700D91251 /* gojuonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A75A73682584DF0700D91251 /* gojuonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75A73782584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuonUITests" */;
+			buildPhases = (
+				A75A73652584DF0700D91251 /* Sources */,
+				A75A73662584DF0700D91251 /* Frameworks */,
+				A75A73672584DF0700D91251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75A736B2584DF0700D91251 /* PBXTargetDependency */,
+			);
+			name = gojuonUITests;
+			productName = gojuonUITests;
+			productReference = A75A73692584DF0700D91251 /* gojuonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75A733D2584DF0400D91251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A75A73442584DF0400D91251 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A75A735D2584DF0700D91251 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A75A73442584DF0400D91251;
+					};
+					A75A73682584DF0700D91251 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A75A73442584DF0400D91251;
+					};
+				};
+			};
+			buildConfigurationList = A75A73402584DF0400D91251 /* Build configuration list for PBXProject "gojuon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75A733C2584DF0400D91251;
+			productRefGroup = A75A73462584DF0400D91251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75A73442584DF0400D91251 /* gojuon */,
+				A75A735D2584DF0700D91251 /* gojuonTests */,
+				A75A73682584DF0700D91251 /* gojuonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75A73432584DF0400D91251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75A73582584DF0700D91251 /* LaunchScreen.storyboard in Resources */,
+				A75A73552584DF0700D91251 /* Preview Assets.xcassets in Resources */,
+				A75A73522584DF0700D91251 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A735C2584DF0700D91251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A73672584DF0700D91251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75A73412584DF0400D91251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75A73492584DF0400D91251 /* AppDelegate.swift in Sources */,
+				A75A73502584DF0400D91251 /* gojuon.xcdatamodeld in Sources */,
+				A75A734B2584DF0400D91251 /* SceneDelegate.swift in Sources */,
+				A75A734D2584DF0400D91251 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A735A2584DF0700D91251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75A73632584DF0700D91251 /* gojuonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A73652584DF0700D91251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75A736E2584DF0700D91251 /* gojuonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A75A73602584DF0700D91251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75A73442584DF0400D91251 /* gojuon */;
+			targetProxy = A75A735F2584DF0700D91251 /* PBXContainerItemProxy */;
+		};
+		A75A736B2584DF0700D91251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75A73442584DF0400D91251 /* gojuon */;
+			targetProxy = A75A736A2584DF0700D91251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A75A73562584DF0700D91251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75A73572584DF0700D91251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A75A73702584DF0700D91251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A75A73712584DF0700D91251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75A73732584DF0700D91251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gojuon/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gojuon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A75A73742584DF0700D91251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gojuon/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gojuon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A75A73762584DF0700D91251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				INFOPLIST_FILE = gojuonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gojuon.app/gojuon";
+			};
+			name = Debug;
+		};
+		A75A73772584DF0700D91251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				INFOPLIST_FILE = gojuonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gojuon.app/gojuon";
+			};
+			name = Release;
+		};
+		A75A73792584DF0700D91251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				INFOPLIST_FILE = gojuonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gojuon;
+			};
+			name = Debug;
+		};
+		A75A737A2584DF0700D91251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTH9S8ZQP;
+				INFOPLIST_FILE = gojuonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = senluoshe.gojuonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gojuon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75A73402584DF0400D91251 /* Build configuration list for PBXProject "gojuon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75A73702584DF0700D91251 /* Debug */,
+				A75A73712584DF0700D91251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75A73722584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75A73732584DF0700D91251 /* Debug */,
+				A75A73742584DF0700D91251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75A73752584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75A73762584DF0700D91251 /* Debug */,
+				A75A73772584DF0700D91251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75A73782584DF0700D91251 /* Build configuration list for PBXNativeTarget "gojuonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75A73792584DF0700D91251 /* Debug */,
+				A75A737A2584DF0700D91251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A75A734E2584DF0400D91251 /* gojuon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A75A734F2584DF0400D91251 /* gojuon.xcdatamodel */,
+			);
+			currentVersion = A75A734F2584DF0400D91251 /* gojuon.xcdatamodel */;
+			path = gojuon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A75A733D2584DF0400D91251 /* Project object */;
+}
